@@ -139,7 +139,7 @@
     font-size: 1.2rem;
     font-weight: 200;
     color: #d9d9d9;
-    flex: 2;
+    flex: 3;
 }
 
 /* Monthly Container */
@@ -154,6 +154,11 @@
     color: white;
 }
 
+.MW-entry {
+    display: flex; /* Display the content horizontally */
+    align-items: center; /* Align items vertically within the container */
+    margin-bottom: 20px; /* Add some space between each day's entry */
+  }
 .MWlarge-container{
     display: flex;
     flex-direction: column;
